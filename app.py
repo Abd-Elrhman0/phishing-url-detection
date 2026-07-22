@@ -175,9 +175,10 @@ model, expected_cols = load_assets()
 # ==========================================
 # 4. Main Dashboard UI
 # ==========================================
-st.markdown("<h1 class='main-title'>🛡️ Enterprise Threat Intelligence Dashboard</h1>", unsafe_allow_html=True)
+st.markdown("<h1 class='main-title'>🛡️Phishing URL Detector</h1>", unsafe_allow_html=True)
+# st.markdown("######  _Phishing URL Detector_", text_alignment='center')
 
-tab1, = st.tabs(["🔍 Quick Scan (Single URL)"])
+st.write("---")
 
 # ------------------------------------------
 # TAB 1: Single URL Analysis
